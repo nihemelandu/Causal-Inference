@@ -9,6 +9,6 @@ Goal:
 Ways to build an answerable research question.
 Determine the quantitative empirical research to perform to answer the research question.
 What would you need to measure?
-Did your method actually answer your question?
+How to determine that your method actually answer your question?
 
 Causal diagrams represents the data generating process that got us our data. To accomplish this, we must know as much as possible about the generating process. The first step is to conduct rigorous research on our topic. 
