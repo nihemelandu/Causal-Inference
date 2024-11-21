@@ -72,9 +72,65 @@
 
     <h3>Step 2: Estimate Propensity Scores</h3>
     <ul>
-        <li>Use logistic regression (or other techniques) to estimate the probability of treatment for each o
+        <li>Use logistic regression (or other techniques) to estimate the probability of treatment for each observation based on observed covariates.</li>
+    </ul>
 
+    <h3>Step 3: Implement Propensity Score Matching</h3>
+    <ul>
+        <li>Match treated units with control units based on the estimated propensity scores.</li>
+    </ul>
 
+    <h3>Step 4: Apply Inverse Propensity Score Weighting (if needed)</h3>
+    <ul>
+        <li>Calculate weights for each unit and adjust the analysis to account for the selection bias.</li>
+    </ul>
 
+    <h3>Step 5: Estimate Causal Effects</h3>
+    <ul>
+        <li>Compare outcomes between treatment and control groups (with appropriate adjustments) to estimate the causal effect of <em>X</em> on <em>Y</em>.</li>
+    </ul>
 
+    <h2>Results (to be filled in as you conduct the study)</h2>
+    <h3>Descriptive Statistics:</h3>
+    <ul>
+        <li>Overview of key statistics from the data (mean, median, variance, etc.).</li>
+    </ul>
 
+    <h3>Results of Propensity Score Matching:</h3>
+    <ul>
+        <li>Describe the matching process and any results from comparing treated and untreated units.</li>
+    </ul>
+
+    <h3>Causal Estimation:</h3>
+    <ul>
+        <li>Estimate and interpret the causal effect of <em>X</em> on <em>Y</em>. Consider the significance and magnitude of the effect.</li>
+    </ul>
+
+    <h2>Discussion</h2>
+    <h3>Interpretation of Results:</h3>
+    <ul>
+        <li>What do the findings suggest about the causal relationship between <em>X</em> and <em>Y</em>?</li>
+    </ul>
+
+    <h3>Limitations:</h3>
+    <ul>
+        <li>Discuss potential limitations of the study, such as unobserved confounders or limitations in the data.</li>
+    </ul>
+
+    <h3>Implications:</h3>
+    <ul>
+        <li>What do the findings mean for theory, practice, or policy?</li>
+    </ul>
+
+    <h2>Conclusion (to be written at the end of the study)</h2>
+    <h3>Summary of Findings:</h3>
+    <ul>
+        <li>Recap the main findings regarding the causal relationship between <em>X</em> and <em>Y</em>.</li>
+    </ul>
+
+    <h3>Future Research:</h3>
+    <ul>
+        <li>What additional questions remain? What improvements or future studies could be conducted to build upon this work?</li>
+    </ul>
+</body>
+</html>
